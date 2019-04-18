@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/*************
+*****ecran d'accueil*****
+*****************************/
+nav{
+  grid-column: 1; grid-row: 1;
+}
+.accueil{
+  position: relative;
+  float: right;
+
+}
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/pexels-photo-205316.jpeg);
+  background-size: cover;
+  }
+
+.mes-sites{
+  position: relative;
+  width:90%;
+  top: 45vh;
+  margin: auto;
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;
+  }
+
+header h1 {
+    font-size:35px;
+    color: white;
+    padding: 30px;
+}
+
+/*********
+******menu******
+******/
+
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav li {
+  display: inline;
+  padding-right: 25px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #000000;
+  z-index: 99;
+}
+
+#logo{
+  height: 50px;
+  position: relative;
+  padding: 25px;
+  top: 10px;
+}
+
+#logo img{
+  width: 15%;
+  }
+
+section {
+  min-height: 100vh;
+}
+
+#section2{
+  background-color: grey;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+footer{
+  position: absolute;
+  margin-bottom: 0;
+    width: 100%;
+    min-height: 150px;
+    background-color: black;
+}
+
+#reseaux-sociaux img{
+  padding: 20px;
+}
